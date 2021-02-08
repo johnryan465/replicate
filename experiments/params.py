@@ -1,6 +1,7 @@
-from .. import Params
-from marshmallow_dataclass import dataclass
+from dataclasses import dataclass
 
 @dataclass
-class ModelParams(Params):
-    pass
+class Params:
+    epochs : int = 1
+
+params = Params(epochs = 10)

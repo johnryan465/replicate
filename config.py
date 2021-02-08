@@ -1,6 +1,8 @@
 # You configure the specificaton of the configs which your model expects in
 # the experiments folder
-# You should 
+
+# You should define python dataclasses which inherit from params
+# And also simply initialise the dataclasses
 
 from abc import ABC
 from typing import List
